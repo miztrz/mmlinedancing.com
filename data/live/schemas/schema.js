@@ -6,7 +6,6 @@ import schemaTypes from 'all:part:@sanity/base/schema-type'
 import blockContent from './components/blockContent'
 import dayAndTime from './documents/dayAndTime'
 import classList from './documents/classList'
-import seoToolbelt from './documents/seoTools'
 
 export default createSchema({
   name: 'default',
@@ -14,6 +13,5 @@ export default createSchema({
     blockContent,
     dayAndTime,
     classList,
-    seoToolbelt
   ])
 })

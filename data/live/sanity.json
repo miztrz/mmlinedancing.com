@@ -16,8 +16,7 @@
     "nyancat-spinner",
     "media",
     "dark-mode",
-    "@sanity/google-maps-input",
-    "seo-tools"
+    "@sanity/google-maps-input"
   ],
   "env": {
     "development": {
