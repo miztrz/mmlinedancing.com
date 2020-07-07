@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "project": {
+    "name": "mmlinedancing.com"
+  },
+  "api": {
+    "projectId": "uxh02eyv",
+    "dataset": "live"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "nyancat-spinner",
+    "media",
+    "dark-mode",
+    "@sanity/google-maps-input",
+    "seo-tools"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "@sanity/vision"
+      ]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
