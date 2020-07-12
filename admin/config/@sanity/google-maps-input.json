@@ -1,0 +1,8 @@
+{
+  "apiKey": "process.env.SANITY_STUDIO_GMAPS_API",
+  "defaultZoom": 15,
+  "defaultLocation": {
+    "lat": -32.3376245,
+    "lng": 115.8119612
+  }
+}
