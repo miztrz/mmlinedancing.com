@@ -1,18 +1,17 @@
 {
-  "name": "gatsby-starter-hyperspace",
-  "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Hyperspace by HTML5 UP",
+  "name": "mm-linedancing",
+  "version": "1.0.0",
+  "description": "MM Line Dancing Website. Theme based on Hyperspace by HTML5 UP.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-hyperspace.git"
+    "url": "git+https://github.com/miztrz/mmlinedancing.com"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Bianca Wilkinson",
+    "email": "bianca.wilkinson@gmail.com"
   },
   "dependencies": {
     "cleave.js": "^1.6.0",
-    "dotenv": "^8.2.0",
     "gatsby": "^2.20.29",
     "gatsby-plugin-manifest": "^2.3.6",
     "gatsby-plugin-offline": "^3.1.4",
@@ -41,13 +40,13 @@
     "rimraf": "^2.6.3"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-hyperspace"
+    "line dancing",
+    "country dance",
+    "line dancing perth"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-hyperspace/issues"
+    "url": "https://github.com/miztrz/mmlinedancing.com/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-hyperspace#readme"
+  "homepage": "https://mmlinedancing.com/"
 }
