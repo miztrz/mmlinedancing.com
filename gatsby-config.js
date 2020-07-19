@@ -1,6 +1,4 @@
-require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`,
-});
+require('dotenv').config();
 
 module.exports = {
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
