@@ -1,5 +1,5 @@
 require('dotenv').config({
-  path: `.env.${process.env.NODE_ENV}`
+  path: `.env.${process.env.NODE_ENV}`,
 });
 
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
         start_url: '/',
         background_color: '#663399',
         theme_color: '#663399',
-        icon: 'src/assets/img/mm-linedancing-logo.png'
+        icon: 'src/assets/img/mm-linedancing-logo.png',
       },
     },
     'gatsby-plugin-sass',

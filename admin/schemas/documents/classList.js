@@ -15,17 +15,17 @@ export default {
       name: 'level',
       title: 'Level',
       type: 'reference',
-      to: [{type: 'setLevels'}]  
+      to: [{ type: 'setLevels' }],
     },
     {
       name: 'hours',
-      title: "Day & Time",
+      title: 'Day & Time',
       type: 'dayAndTime',
     },
     {
       name: 'thisLocation',
       title: 'Location',
-      type: 'location'
+      type: 'location',
     },
     {
       name: 'slug',

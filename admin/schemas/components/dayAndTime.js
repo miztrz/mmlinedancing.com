@@ -4,7 +4,7 @@ const cleave = new Cleave('.time-input', {
   time: true,
   timeFormat: '12',
   delimiter: '-',
-  delimiterLazyShow: true
+  delimiterLazyShow: true,
 });
 
 const days = [
