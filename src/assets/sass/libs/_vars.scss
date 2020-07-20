@@ -19,31 +19,33 @@
 		element-margin:		2em,
 		sidebar-width:		18em,
 		sidebar-height:		3.5em,	// when <=large is active
-		inner-width:		75em
+		inner-width:		75em,
+		grid-item-padding:	10px
 	);
 
 // Font.
 	$font: (
-		family:				(Arial, Helvetica, sans-serif),
+		family:				('Open Sans', sans-serif),
 		family-fixed:		('Courier New', monospace),
-		weight:				normal,
-		weight-bold:		bold,
+		family-headers:		('selimaregular', 'Open Sans', sans-serif),
+		weight:				300,
+		weight-bold:		700,
 		kerning-alt:		0.25em
 	);
 
 // Palette.
 	$palette: (
-		bg:					#312450,
-		bg-alt:				darken(#312450, 5),
+		bg:					#2C1642,
+		bg-alt:				darken(#2C1642, 5),
 		fg:					rgba(255,255,255,0.55),
 		fg-bold:			#ffffff,
 		fg-light:			rgba(255,255,255,0.35),
 		border:				rgba(255,255,255,0.15),
 		border-bg:			rgba(255,255,255,0.05),
-		accent1:			#5e42a6,
-		accent1-alt:		darken(#5e42a6, 10),
-		accent2:			#5052b5,
-		accent2-alt:		darken(#5052b5, 10),
-		accent3:			#b74e91,
-		accent3-alt:		darken(#b74e91, 10)
+		accent1:			#663399,
+		accent1-alt:		darken(#663399, 10),
+		accent2:			#334499,
+		accent2-alt:		darken(#334499, 10),
+		accent3:			#993388,
+		accent3-alt:		darken(#993388, 10)
 	);

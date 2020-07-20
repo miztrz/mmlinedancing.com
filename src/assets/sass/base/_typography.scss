@@ -6,6 +6,16 @@
 
 /* Type */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+@font-face {
+    font-family: 'selimaregular';
+    src: url('/../../fonts/selima-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
@@ -56,7 +66,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
+		font-family:  _font(family-headers);
 		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 0.25) 0;
 
