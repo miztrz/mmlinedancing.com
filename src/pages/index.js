@@ -4,9 +4,10 @@ import Layout from '../components/common/layout';
 import Footer from '../components/common/Footer';
 import Sidebar from '../components/common/Sidebar';
 
-import Introduction from '../components/introduction/Introduction';
-import Features from '../components/features/Features';
-import Capabilities from '../components/capabilities/Capabilities';
+import Landing from '../components/landing/Landing';
+import About from '../components/about/About';
+import Classes from '../components/classes/Classes';
+import Dances from '../components/dances/Dances';
 import Contact from '../components/contact/Contact';
 
 const IndexPage = () => (
@@ -14,9 +15,10 @@ const IndexPage = () => (
     <Sidebar />
 
     <div id="wrapper">
-      <Introduction />
-      <Features />
-      <Capabilities />
+      <Landing />
+      <About />
+      <Classes />
+      <Dances />
       <Contact />
     </div>
 
