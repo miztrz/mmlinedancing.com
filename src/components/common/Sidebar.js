@@ -9,7 +9,7 @@ const Sidebar = () => {
     { content: 'About', href: 'about' },
     { content: 'Class Timetable', href: 'class' },
     { content: 'Dance List', href: 'dances' },
-    { content: 'Contact Me', href: 'contact' }
+    { content: 'Contact Me', href: 'contact' },
   ]);
 
   return (

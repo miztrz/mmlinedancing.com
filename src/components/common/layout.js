@@ -21,7 +21,10 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'MM Line Dancing - For your dancing needs.' },
+            {
+              name: 'description',
+              content: 'MM Line Dancing - For your dancing needs.',
+            },
             { name: 'keywords', content: 'site, web, line dancing, perth' },
           ]}
         >

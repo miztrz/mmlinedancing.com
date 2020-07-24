@@ -8,8 +8,7 @@ const Dances = () => (
     <div className="inner">
       <h1>Dance List</h1>
 
-
-    <div className="features">
+      <div className="features">
         <DanceList />
       </div>
       <ul className="actions">
